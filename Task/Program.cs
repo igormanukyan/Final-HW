@@ -25,4 +25,16 @@ class Program
 
         PrintArray(originalArray); // Печать оригинального массива
         PrintArray(newArray); // Печать нового массива
+//
+        // Функции
+        //
+
+        void PrintArray(string[] array) //Функция печати массива
+        {
+            for (int i = 0; i < array.Length; i++)
+            {
+                System.Console.Write(array[i] + " ");
+            }
+            System.Console.WriteLine();
+        }
 
